@@ -69,9 +69,9 @@ the [spec](docs/spec.md).
 
 ## Ports
 
-| App    | Port            | Status  |
-| ------ | --------------- | ------- |
-| Neovim | `mistpine.nvim` | Planned |
+| App    | Port                                                          | Status    |
+| ------ | ------------------------------------------------------------- | --------- |
+| Neovim | [`mistpine.nvim`](https://github.com/lnutimura/mistpine.nvim) | Available |
 
 Until an app has its own port, open mistpine in
 [themes.utimura.io](https://themes.utimura.io/#s=lVRNj-M2DP0vao6ejO04_jrtboH2VhTFXNpLQMl0oo4tuRI92WCQ_16IzjrxJt3tAgEcvkdSFPXId7Hy6oA9iFociAZfPz_TAXv065F0PzpYa_s8uTy_Jeu_vTUiEm_ovLZG1EkkDPQoatFrT4M2GFhwGgyJWjTgXkUkBuiQCEX9LuQ-FrX4KS6SKk1EJOQ-YVsmbVqwnbLdpkWKbG-CnWzTdjPxWbDTPEsyEJFoJ15lqmpitjkeChlLyTbnL4sqh4nn8zPMt0WwHTbBllhstrmIhHVg9sgpq1IydMKus0eGUthuQ9a9QzScFypgRJ2AgW1bQRWiZDdymrwtWyhDE0Y3dAyVqsxkFiBtXjlvXEKlQpDT-wP9MdXUxCXkOKO_fjkTKlkVMON_zuU1SqXFNeDTpYJqA63KZvj3uQ5ZQqnymfj5coUyl0rm4hwJ-4bO6QZ9eDlC12sD3RqM1_HikRZUsujngkoXLVtQm0V_F1S2aOOC2vL9oCzvqWQ79bBJmkUdHjtUpK35tBe1WAU9RWLU604b_M19VKTfQnNWl1ePxBFRHYDWX74SXO0JaPRrZTvrdvKSaPMfzqSpw2_4yrHttKdajc6hoYWPPxmCz-tXPB2tC6pYBcHOuLKGnO0e4H2PPIGrMAAz3o6G7x6IScMz1SMdbPOAMGMv0QXiouDb0z1Ng37HSWs7ZD3dU6PuSDN1mbaZGpwd0NGJGxDke2XAQY80FbKkeN1IlvSH-Zlb63Dv7GhuuhJyA1n36OSwxfwACu_zE_CD8IRf2wXK2XsYvYIBHx1wQGi02d82-FGxt7ts5tXoPJf9gJv1_Mv-seDDMJS8mrJcFvmkdmPNC34mXqVFlmTVA-2yYuvwd0ead_w1xTd8jVavO9u2YaD-b4w2wIO3O2rTTMvsh8Lk2LYsje-FheLCsO3gCKeH_tqpi69D8Nbs_hk1fceT7KDVznbNjd85Ep5O3bQ753l8F5qg00rU5EZkH8equCOuo_ouJKdm4hyJHgk4qUMgbD6G6tI4zZ-S-GkTv8Rxzb91HMd_hdcemq_ckqc4e0nyenN1O5__BQ) and export it: the designer
