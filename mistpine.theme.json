@@ -1,0 +1,90 @@
+{
+  "$schema": "https://themes.utimura.io/schema/v1.json",
+  "version": 1,
+  "name": "mistpine",
+  "variant": "dark",
+  "palette": {
+    "bg0": "#071921",
+    "bg1": "#0b1f27",
+    "bg2": "#0f272e",
+    "bg3": "#152f37",
+    "bg4": "#26414a",
+    "fg3": "#c4c9d0",
+    "fg2": "#a7b0bb",
+    "fg1": "#8796a0",
+    "fg0": "#4e6570",
+    "red": "#be7356",
+    "orange": "#c98b56",
+    "yellow": "#c2a55b",
+    "green": "#8a9a5b",
+    "cyan": "#5f9a96",
+    "blue": "#6f8fa8",
+    "purple": "#8c84b4",
+    "pink": "#c08a9c",
+    "brightRed": "#d08a6e",
+    "brightGreen": "#a9b97a",
+    "brightYellow": "#dcc27e",
+    "brightBlue": "#93afc4",
+    "brightPurple": "#b8a8c6",
+    "brightCyan": "#86bcb6"
+  },
+  "overrides": {
+    "terminal.ansi0": "#0f272e",
+    "terminal.ansi1": "#be7356",
+    "terminal.ansi2": "#8a9a5b",
+    "terminal.ansi3": "#c2a55b",
+    "terminal.ansi4": "#6f8fa8",
+    "terminal.ansi5": "#9a88a8",
+    "terminal.ansi15": "#d0d1d6",
+    "terminal.selectionBg": "$bg4",
+    "ui.lineNrActive": "$yellow",
+    "weechat.weechat.bar:status.color_bg": "$bg3",
+    "weechat.weechat.bar:title.color_bg": "$bg3",
+    "weechat.buflist:current_bg": "$bg3",
+    "syntax.keyword": "$red",
+    "syntax.control": "$red",
+    "syntax.comment": "$fg1",
+    "syntax.function": "$green",
+    "syntax.method": "$green",
+    "syntax.number": "$purple",
+    "syntax.constant": "$purple",
+    "syntax.boolean": "$purple",
+    "syntax.builtin": "$orange",
+    "syntax.property": "$blue",
+    "syntax.parameter": "$blue",
+    "syntax.variable": "@terminal.foreground",
+    "syntax.operator": "$orange",
+    "syntax.namespace": "$blue",
+    "syntax.tag": "$cyan",
+    "syntax.macro": "$cyan",
+    "syntax.escape": "$orange",
+    "syntax.heading": "$green",
+    "terminal.foreground": "#c4c9d0",
+    "terminal.cursor": "#c4c9d0",
+    "terminal.selectionFg": "#d0d1d6",
+    "terminal.ansi8": "#546b76",
+    "ui.nonText": "#274149",
+    "weechat.weechat.color:chat_time": "#546b76",
+    "weechat.weechat.color:chat_nick_offline": "#546b76",
+    "weechat.weechat.color:chat_inactive_window": "#546b76",
+    "weechat.weechat.color:chat_inactive_buffer": "#546b76",
+    "weechat.weechat.color:nicklist_away": "#546b76",
+    "weechat.irc.color:reason_quit": "#546b76",
+    "weechat.irc.color:topic_old": "#546b76"
+  },
+  "styles": {
+    "comment": {
+      "italic": true
+    },
+    "string": {
+      "italic": true
+    },
+    "function": {
+      "bold": true
+    }
+  },
+  "meta": {
+    "createdAt": "2026-10-30T00:00:00.000Z",
+    "updatedAt": "2026-11-04T16:30:00.000Z"
+  }
+}
