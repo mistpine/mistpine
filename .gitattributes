@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.png binary
+*.ttf binary
+
+# Written by scripts/build.ts and scripts/render.ts: review the source instead.
+palette/** linguist-generated
+assets/** linguist-generated
