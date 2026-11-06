@@ -136,7 +136,7 @@ function scheme(spec: Spec, system: string, slots: Record<string, string>): stri
     `system: "${system}"`,
     `name: "${spec.name}"`,
     `slug: "${spec.name}"`,
-    `author: "Luan Utimura (https://github.com/lnutimura/mistpine)"`,
+    `author: "Luan Utimura (https://github.com/mistpine/mistpine)"`,
     `variant: "${spec.variant}"`,
     "palette:",
     ...rows,
