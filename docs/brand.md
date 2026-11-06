@@ -62,13 +62,14 @@ card, so on pure white it fades into the background outside the pines.
 Ports are named `mistpine.<app>`. The suffix is set in JetBrains Mono, in a
 bright accent:
 
-| Port               | Suffix color             |
-| ------------------ | ------------------------ |
-| `mistpine.nvim`    | `brightGreen` `#a9b97a`  |
-| `mistpine.ghostty` | `brightBlue` `#93afc4`   |
-| `mistpine.vscode`  | `brightYellow` `#dcc27e` |
-| `mistpine.wezterm` | `brightPurple` `#b8a8c6` |
-| `mistpine.tmux`    | `brightCyan` `#86bcb6`   |
+| Port                | Suffix color             |
+| ------------------- | ------------------------ |
+| `mistpine.nvim`     | `brightGreen` `#a9b97a`  |
+| `mistpine.obsidian` | `brightRed` `#d08a6e`    |
+| `mistpine.ghostty`  | `brightBlue` `#93afc4`   |
+| `mistpine.vscode`   | `brightYellow` `#dcc27e` |
+| `mistpine.wezterm`  | `brightPurple` `#b8a8c6` |
+| `mistpine.tmux`     | `brightCyan` `#86bcb6`   |
 
 <p align="center">
   <img src="../assets/logo/lockup-nvim.svg" alt="mistpine.nvim lockup" height="64">
