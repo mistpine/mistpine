@@ -71,6 +71,7 @@ the [spec](docs/spec.md).
 
 | App      | Port                                                                 | Status    |
 | -------- | -------------------------------------------------------------------- | --------- |
+| Ghostty  | [`mistpine.ghostty`](https://github.com/mistpine/mistpine.ghostty)   | Available |
 | Neovim   | [`mistpine.nvim`](https://github.com/mistpine/mistpine.nvim)         | Available |
 | Obsidian | [`mistpine.obsidian`](https://github.com/mistpine/mistpine.obsidian) | Available |
 
