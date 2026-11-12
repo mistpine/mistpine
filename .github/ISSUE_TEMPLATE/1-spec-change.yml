@@ -1,0 +1,70 @@
+# Filing through the API or `gh issue create`? Forms only apply on the web:
+# write the body with each field's label below as a `### ` heading, in order.
+name: Palette or spec change
+description: Propose a different color, blend or role for a palette key or spec token.
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Every port follows the [spec](https://github.com/mistpine/mistpine/blob/main/docs/spec.md),
+        so a change here reaches Ghostty, Neovim and Obsidian at once. Text colors
+        must keep 4.5:1 against the surface they sit on.
+
+        If a port uses a color the spec doesn't give it, report it in that port instead.
+  - type: input
+    id: token
+    attributes:
+      label: Palette key or spec token
+      description: As written in `palette/mistpine.json`.
+      placeholder: "fg1, syntax.comment, ui.searchBg"
+    validations:
+      required: true
+  - type: input
+    id: change
+    attributes:
+      label: Current and proposed value
+      description: A hex color, a palette key or a blend.
+      placeholder: "#8796a0 → #8f9ea8"
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: What reads poorly or clashes today, and where you saw it.
+    validations:
+      required: true
+  - type: textarea
+    id: contrast
+    attributes:
+      label: Contrast
+      description: WCAG 2 ratios before and after, against `bg1` or the surface the color sits on.
+      placeholder: "on bg1: 5.1:1 → 5.6:1"
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots
+      description: Before and after, ideally in a real app. Drag images here.
+  - type: dropdown
+    id: ports
+    attributes:
+      label: Ports that show this color
+      multiple: true
+      options:
+        - Ghostty
+        - Neovim
+        - Obsidian
+        - None, palette files only
+        - Not sure
+  - type: dropdown
+    id: author
+    attributes:
+      label: Who wrote this issue?
+      description: Issues from agents are welcome; say so, so they can be read with that in mind.
+      options:
+        - A person
+        - An AI agent, reviewed by a person
+        - An AI agent, without human review
+    validations:
+      required: true

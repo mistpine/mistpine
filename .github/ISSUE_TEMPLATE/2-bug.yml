@@ -1,0 +1,62 @@
+# Filing through the API or `gh issue create`? Forms only apply on the web:
+# write the body with each field's label below as a `### ` heading, in order.
+name: Bug in the palette files, docs or assets
+description: A wrong value, broken file or mistake in the palette formats, spec, brand docs or logos.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For colors that look wrong in an app, open the issue in its port (see the
+        links on the previous page). To change a color on purpose, use
+        **Palette or spec change**.
+  - type: dropdown
+    id: files
+    attributes:
+      label: Affected files
+      multiple: true
+      options:
+        - palette/mistpine.json
+        - palette/mistpine.css
+        - palette/mistpine.scss
+        - palette/mistpine.lua
+        - palette/mistpine.base16.yaml or base24.yaml
+        - mistpine.theme.json
+        - docs/spec.md
+        - docs/brand.md
+        - Logos, banner or swatches
+        - README
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What's wrong
+      description: Quote the line or value, or describe what breaks.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+      description: The correct value, and where it comes from (the spec, another format, the tool's docs).
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: How you found it
+      description: The tool reading the file and its version (a base16 builder, Sass, a Lua config), commands run, errors.
+      render: text
+  - type: dropdown
+    id: author
+    attributes:
+      label: Who wrote this issue?
+      description: Issues from agents are welcome; say so, so they can be read with that in mind.
+      options:
+        - A person
+        - An AI agent, reviewed by a person
+        - An AI agent, without human review
+    validations:
+      required: true
