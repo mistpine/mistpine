@@ -43,14 +43,3 @@ body:
     attributes:
       label: Notes
       description: What the app can style (syntax, UI, terminal colors), limits such as no italics or no transparency, and anything the spec doesn't cover.
-  - type: dropdown
-    id: author
-    attributes:
-      label: Who wrote this issue?
-      description: Issues from agents are welcome; say so, so they can be read with that in mind.
-      options:
-        - A person
-        - An AI agent, reviewed by a person
-        - An AI agent, without human review
-    validations:
-      required: true
