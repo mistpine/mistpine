@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ghostty port
+    url: https://github.com/mistpine/mistpine.ghostty/issues/new/choose
+    about: Terminal colors, search highlights and splits in mistpine.ghostty.
+  - name: Neovim port
+    url: https://github.com/mistpine/mistpine.nvim/issues/new/choose
+    about: Highlight groups, plugins and options in mistpine.nvim.
+  - name: Obsidian port
+    url: https://github.com/mistpine/mistpine.obsidian/issues/new/choose
+    about: Notes, code blocks, callouts and plugins in mistpine.obsidian.
