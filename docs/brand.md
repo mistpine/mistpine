@@ -60,13 +60,14 @@ card, so on pure white it fades into the background outside the pines.
 ### Port lockups
 
 Ports are named `mistpine.<app>`. The suffix is set in JetBrains Mono, in a
-bright accent:
+bright accent, or the spare `pink`:
 
 | Port                | Suffix color             |
 | ------------------- | ------------------------ |
 | `mistpine.nvim`     | `brightGreen` `#a9b97a`  |
 | `mistpine.obsidian` | `brightRed` `#d08a6e`    |
 | `mistpine.ghostty`  | `brightBlue` `#93afc4`   |
+| `mistpine.rofi`     | `pink` `#c08a9c`         |
 | `mistpine.vscode`   | `brightYellow` `#dcc27e` |
 | `mistpine.wezterm`  | `brightPurple` `#b8a8c6` |
 | `mistpine.tmux`     | `brightCyan` `#86bcb6`   |
