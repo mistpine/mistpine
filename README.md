@@ -88,6 +88,9 @@ Agent and Claude Code, plus base16, base24 and CSS.
 Writing a port? Follow the [spec](docs/spec.md), read colors from
 [`palette/mistpine.json`](palette/mistpine.json) and name the repository
 `mistpine.<app>` (see [brand](docs/brand.md#port-lockups)).
+[@mistpine/port-kit](https://github.com/mistpine/port-kit) has the tooling
+the ports share: it loads the spec, does its color math (`mix`, contrast),
+draws the port's banner and checks screenshots pixel by pixel.
 
 ## Use the palette
 
